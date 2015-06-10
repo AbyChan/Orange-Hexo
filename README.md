@@ -1,0 +1,2 @@
+# Orange-Hexo
+hexo theme
