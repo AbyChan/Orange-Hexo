@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pacman
 
 Pacman is a flat and responsive design theme for [Hexo](http://hexo.io).
@@ -122,3 +123,7 @@ google_cse:
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/A-limon/pacman/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
+=======
+# Orange-Hexo
+hexo theme
+>>>>>>> 1058418ca585387882d1e87e4f488fa7aa024a2d
