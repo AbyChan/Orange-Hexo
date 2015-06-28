@@ -20,7 +20,7 @@
   }
   %>
     <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, minimum-scale=1">
     <% if (config.author){ %>
     <meta name="author" content="<%= config.author %>"><% } %>
     <% if (page.description){ %>
@@ -49,6 +49,9 @@
     <% } %>
     <% if (theme.apple_icon){ %>
     <link rel="apple-touch-icon" href="<%- config.root %><%- theme.apple_icon %>">
+
+    <link rel="stylesheet" href="<%- config.root %>css/cola.css">
+    <link rel="stylesheet" href="<%- config.root %>css/fonts.css">
     <link rel="apple-touch-icon-precomposed" href="<%- config.root %><%- theme.apple_icon %>">
     <% } %>
     <%- css('css/style') %>

@@ -1,5 +1,10 @@
 <script src="<%- config.root %>js/jquery-2.1.0.min.js"></script>
+<script src="<%- config.root %>js/pin.js"></script>
+<script src="<%- config.root %>js/header.js"></script>
+
 <script type="text/javascript">
+  $('#asidepart').pin();
+  
 $(document).ready(function(){ 
   $('.navbar').click(function(){
     $('header nav').toggleClass('shownav');
@@ -43,6 +48,12 @@ $(document).ready(function(){
   $(window).scroll(function(){
     o.css("top",Math.max(80,260-$(this).scrollTop()));
   });
+
+      
+  $('#nav').stickNav({
+      header: '#header'
+      });
+      
 });
 </script>
 <% if (is_post()) { %>
